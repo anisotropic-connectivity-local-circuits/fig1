@@ -14,8 +14,8 @@
 
 \begin{document}
 
-\def\xin{5}
-\def\yin{87.5}
+\def\xin{1.}
+\def\yin{91.5}
 \def\w{2.6in}
 
 \Large \bfseries
@@ -26,28 +26,28 @@
 \begin{tabular}{@{\hskip -0.4cm}c@{\hskip 0.2cm}c@{\hskip 0.75cm}c@{\hskip 0.2cm}c@{\hskip 0.1cm}} 
 
   \setlength{\tabcolsep}{0pt}
-  \begin{overpic}[width=\w, frame]%
+  \begin{overpic}[width=\w, frame=1pt]%
     {raw/p14rr_1_traced_soma_unit_A.png}
     \put(\xin,\yin){\fboxsep=3pt\colorbox{white}{A}}
   \end{overpic}
 
   &
 
-  \begin{overpic}[width=\w]%
+  \begin{overpic}[width=\w, frame=1pt]%
     {raw/axon_heat_correct_soma_lowres.png}
     %\put(\xin,\yin){\fboxsep=3pt\colorbox{white}{B}}
   \end{overpic}
 
   &
 
-  \begin{overpic}[width=\w,frame]%
+  \begin{overpic}[width=\w, frame=1pt]%
     {raw/p14rr_1_dendrite_trace_scale.png}
     \put(\xin,\yin){\fboxsep=3pt\colorbox{white}{B}}
   \end{overpic}
 
   &
 
-  \begin{overpic}[width=\w]%
+  \begin{overpic}[width=\w, frame=1pt]%
     {raw/dendrite_heat_correct_soma_lowres.png}
     %\put(\xin,\yin){\fboxsep=3pt\colorbox{white}{D - low res!}}
   \end{overpic}
