@@ -6,8 +6,12 @@
 \usepackage{xcolor}
 \usepackage{overpic}
 \usepackage{tgheros}
+\usepackage[eulergreek]{sansmath}
+\sansmath
 \usepackage[export]{adjustbox}
 \usepackage{calc}
+\usepackage{siunitx}
+\sisetup{detect-all}
 
 \renewcommand*{\familydefault}{\sfdefault}
 
@@ -34,7 +38,8 @@
   &
 
   \begin{overpic}[width=\w, frame=1pt]%
-    {raw/axon_heat_correct_soma_lowres.png}
+    {img/axon_heat_correct_soma.pdf}
+    \put(76.5,91.5){{\normalfont \large \textcolor{white}{\SI{100}{\micro\metre}}}}
     %\put(\xin,\yin){\fboxsep=3pt\colorbox{white}{B}}
   \end{overpic}
 
@@ -48,8 +53,9 @@
   &
 
   \begin{overpic}[width=\w, frame=1pt]%
-    {raw/dendrite_heat_correct_soma_lowres.png}
-    %\put(\xin,\yin){\fboxsep=3pt\colorbox{white}{D - low res!}}
+    {img/dendrite_heat_correct_soma.pdf}
+    \put(76.5,91.5){{\normalfont \large \textcolor{white}{\SI{100}{\micro\metre}}}}
+
   \end{overpic}
 
 \end{tabular}	
