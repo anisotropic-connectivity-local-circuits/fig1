@@ -1,6 +1,7 @@
 
-%\documentclass[crop=true,border=0,convert={density=600}]{standalone}
-\documentclass[crop=true,border=0]{standalone}
+\documentclass[margin={0.cm  -0.15cm  -0.cm  0.05cm}]{standalone}
+%%            [margin={ left bottom  right    top}  ]
+%%  .png      [convert={density=600}                ]
 
 \usepackage{graphicx}
 \usepackage{xcolor}
@@ -27,18 +28,19 @@
 %\setlength\tabcolsep{0.13in}
 %\renewcommand{\arraystretch}{2.8}
 
-\begin{tabular}{@{\hskip -0.4cm}c@{\hskip 0.2cm}c@{\hskip 0.75cm}c@{\hskip 0.2cm}c@{\hskip 0.1cm}} 
+\begin{tabular}{@{\hskip -0.4cm}c@{\hskip 0.185cm}c@{\hskip 0.5cm}c@{\hskip 0.185cm}c@{\hskip 0.1cm}} 
 
   \setlength{\tabcolsep}{0pt}
   \begin{overpic}[width=\w, frame=1pt]%
-    {raw/p14rr_1_traced_soma_unit_A.png}
+    {img/axon_trace.pdf}
     \put(\xin,\yin){\fboxsep=3pt\colorbox{white}{A}}
+    \put(76.5,91.5){{\normalfont \large \textcolor{black}{\SI{100}{\micro\metre}}}}
   \end{overpic}
 
   &
 
   \begin{overpic}[width=\w, frame=1pt]%
-    {img/axon_heat_correct_soma.pdf}
+    {img/axon_heatmap.pdf}
     \put(76.5,91.5){{\normalfont \large \textcolor{white}{\SI{100}{\micro\metre}}}}
     %\put(\xin,\yin){\fboxsep=3pt\colorbox{white}{B}}
   \end{overpic}
@@ -46,14 +48,15 @@
   &
 
   \begin{overpic}[width=\w, frame=1pt]%
-    {raw/p14rr_1_dendrite_trace_scale.png}
+    {img/dendrite_trace.pdf}
     \put(\xin,\yin){\fboxsep=3pt\colorbox{white}{B}}
+    \put(76.5,91.5){{\normalfont \large \textcolor{black}{\SI{100}{\micro\metre}}}}
   \end{overpic}
 
   &
 
   \begin{overpic}[width=\w, frame=1pt]%
-    {img/dendrite_heat_correct_soma.pdf}
+    {img/dendrite_heatmap.pdf}
     \put(76.5,91.5){{\normalfont \large \textcolor{white}{\SI{100}{\micro\metre}}}}
 
   \end{overpic}
