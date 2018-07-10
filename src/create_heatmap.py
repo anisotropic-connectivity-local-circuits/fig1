@@ -15,11 +15,11 @@ def heatmap_from_overlay(fpath):
     ax = pl.Axes(fig, [0., 0., 1., 1.])
     ax.set_axis_off()
     fig.add_axes(ax)
-    #pl.set_cmap('jet')
-    ax.imshow(np.negative(img_gauss[:,:,0]), aspect = 'normal')
+    # pl.set_cmap('RdPu')
+    ax.imshow(np.negative(img_gauss[:,:,0]), aspect = 'equal')
 
     
-    pl.savefig("heatmap_{:s}.png".format(fpath), dpi=300)
+    pl.savefig("heatmap_{:s}".format(fpath), dpi=300)
     
 
 
