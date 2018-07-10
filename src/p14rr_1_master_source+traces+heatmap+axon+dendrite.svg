@@ -24,11 +24,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="181.54822"
-     inkscape:cy="223.16581"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="533.9206"
+     inkscape:cy="67.799689"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer5"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -213,7 +213,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="heatmap_virdis">
+     inkscape:label="heatmap_virdis"
+     style="display:inline">
     <image
        y="1.4210855e-14"
        x="0"
@@ -4268,7 +4269,7 @@ AAAASUVORK5CYII=
      inkscape:label="soma_heatmap"
      style="display:inline">
     <g
-       style="display:inline;fill:none"
+       style="display:inline;fill:none;stroke-width:3.94909838;stroke-miterlimit:4;stroke-dasharray:none"
        id="g3593"
        transform="matrix(0.65532518,0,0,0.61154336,87.56651,100.27873)">
       <path
@@ -4286,7 +4287,7 @@ AAAASUVORK5CYII=
          sodipodi:cx="218.57143"
          sodipodi:sides="3"
          id="path3595"
-         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:2.17746902;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:none"
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:4.2998995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:none"
          sodipodi:type="star" />
       <circle
          r="4.1071429"
@@ -4294,14 +4295,14 @@ AAAASUVORK5CYII=
          cx="250.53572"
          transform="matrix(1.234907,0,0,1.2412742,-59.124943,-61.43997)"
          id="circle3597"
-         style="fill:none;stroke:#ffffff;stroke-width:1.36177886;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:none;stroke:#ffffff;stroke-width:3.18967888;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="source_img"
-     style="display:none">
+     style="display:inline">
     <image
        y="0"
        x="0"
@@ -4314,7 +4315,7 @@ AAAASUVORK5CYII=
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="axon_trace"
-     style="display:none">
+     style="display:inline">
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 250.44643,262.41072 c -0.0341,4.58103 1.95705,3.74939 1.69643,9.01785 -0.47639,9.63033 -6.58344,48.97597 -2.85715,56.42857 0.88181,1.76362 5.11102,11.5637 4.28572,13.21429 -7.99437,15.98873 -2.5,34.77087 -2.5,52.5 0,5.11707 -3.13706,15.86873 -0.35714,21.42857 3.58554,7.17108 5.31755,14.92082 8.92857,22.14286 2.77985,5.55971 -5.37912,16.02748 -3.21429,20.35714 4.02881,8.05762 9.21742,34.20176 7.14286,42.5"
@@ -4618,7 +4619,7 @@ AAAASUVORK5CYII=
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <g
-       style="display:inline"
+       style="display:inline;stroke-width:3.94909835;stroke-miterlimit:4;stroke-dasharray:none"
        id="g3513"
        transform="matrix(0.65532518,0,0,0.61154336,87.56651,100.27873)">
       <path
@@ -4636,7 +4637,7 @@ AAAASUVORK5CYII=
          sodipodi:cx="218.57143"
          sodipodi:sides="3"
          id="path3515"
-         style="fill:none;stroke:#000000;stroke-width:2.17766142;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:none"
+         style="fill:none;stroke:#000000;stroke-width:4.29989958;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:none"
          sodipodi:type="star" />
       <circle
          r="4.1071429"
@@ -4644,7 +4645,7 @@ AAAASUVORK5CYII=
          cx="250.53572"
          transform="matrix(1.234907,0,0,1.2412742,-59.124943,-61.43997)"
          id="circle3517"
-         style="fill:none;stroke:#000000;stroke-width:1.36177886;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:none;stroke:#000000;stroke-width:3.18967891;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -4653,7 +4654,7 @@ AAAASUVORK5CYII=
        inkscape:connector-curvature="0" />
   </g>
   <g
-     style="display:none"
+     style="display:inline"
      inkscape:label="dendrite_trace"
      id="g3075"
      inkscape:groupmode="layer">
@@ -5100,7 +5101,7 @@ AAAASUVORK5CYII=
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="scalebar_trace"
-     style="display:none">
+     style="display:inline">
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 397.53835,56.153074 83.08505,0"
