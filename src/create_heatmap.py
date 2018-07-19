@@ -5,7 +5,7 @@ import scipy
 import scipy.ndimage
 
 
-def heatmap_from_overlay(fpath):
+def heatmap_from_overlay(fpath, cmap):
 
     img = mpimg.imread(fpath)
 
@@ -15,16 +15,18 @@ def heatmap_from_overlay(fpath):
     ax = pl.Axes(fig, [0., 0., 1., 1.])
     ax.set_axis_off()
     fig.add_axes(ax)
-    # pl.set_cmap('RdPu')
+    pl.set_cmap(cmap)
     ax.imshow(np.negative(img_gauss[:,:,0]), aspect = 'equal')
 
     
-    pl.savefig("heatmap_{:s}".format(fpath), dpi=300)
+    pl.savefig("heatmaps/{:s}_heatmap_{:s}".format(cmap,fpath), dpi=300)
     
 
 
 if __name__ == "__main__":
 
-    heatmap_from_overlay("overlay_axon_1-5_noalpha.png")
-    heatmap_from_overlay("overlay_dendrite_1-5_noalpha.png")
-    
+    heatmap_from_overlay("overlay_axon_1-5_noalpha.png", 'viridis')
+    heatmap_from_overlay("overlay_dendrite_1-5_noalpha.png", 'viridis')
+
+    heatmap_from_overlay("overlay_axon_1-5_noalpha.png", 'jet')
+    heatmap_from_overlay("overlay_dendrite_1-5_noalpha.png", 'jet')

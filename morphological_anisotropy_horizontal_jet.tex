@@ -1,0 +1,71 @@
+
+\documentclass[margin={0.cm  -0.15cm  -0.cm  0.05cm}]{standalone}
+%%            [margin={ left bottom  right    top}  ]
+%%  .png      [convert={density=600}                ]
+
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{overpic}
+\usepackage{tgheros}
+\usepackage[eulergreek]{sansmath}
+\sansmath
+\usepackage[export]{adjustbox}
+\usepackage{calc}
+\usepackage{siunitx}
+\sisetup{detect-all}
+
+\renewcommand*{\familydefault}{\sfdefault}
+
+
+\begin{document}
+
+\def\xin{1.}
+\def\yin{91.5}
+\def\w{2.6in}
+
+\Large \bfseries
+
+%\setlength\tabcolsep{0.13in}
+%\renewcommand{\arraystretch}{2.8}
+
+\begin{tabular}{@{\hskip -0.4cm}c@{\hskip 0.185cm}c@{\hskip 0.5cm}c@{\hskip 0.185cm}c@{\hskip 0.1cm}} 
+
+  \setlength{\tabcolsep}{0pt}
+  \begin{overpic}[width=\w, frame=1pt]%
+    {img/axon_trace.pdf}
+    \put(\xin,\yin){\fboxsep=3pt\colorbox{white}{A}}
+    \put(76.5,91.5){{\normalfont \large \textcolor{black}{\SI{100}{\micro\metre}}}}
+  \end{overpic}
+
+  &
+
+  \begin{overpic}[width=\w, frame=1pt]%
+    {img/axon_heatmap_jet.pdf}
+    %% {src/heatmap_overlay_axon_1-5_noalpha.png}
+    \put(76.5,91.5){{\normalfont \large \textcolor{white}{\SI{100}{\micro\metre}}}}
+    %\put(\xin,\yin){\fboxsep=3pt\colorbox{white}{B}}
+  \end{overpic}
+
+  &
+
+  \begin{overpic}[width=\w, frame=1pt]%
+    {img/dendrite_trace.pdf}
+    \put(\xin,\yin){\fboxsep=3pt\colorbox{white}{B}}
+    \put(76.5,91.5){{\normalfont \large \textcolor{black}{\SI{100}{\micro\metre}}}}
+  \end{overpic}
+
+  &
+
+  \begin{overpic}[width=\w, frame=1pt]%
+    {img/dendrite_heatmap_jet.pdf}
+    %% {src/heatmap_overlay_dendrite_1-5_noalpha.png}
+    \put(76.5,91.5){{\normalfont \large \textcolor{white}{\SI{100}{\micro\metre}}}}
+
+  \end{overpic}
+
+\end{tabular}	
+
+
+\end{document}
+
+
